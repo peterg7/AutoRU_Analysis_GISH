@@ -5,7 +5,7 @@ An automanufacturing company, AutoRUs, want to encorporate aspects of data analy
 
 ## Resources
 Software:
-- R 1.2.5
+- RStudio 1.2.5
 
 Data Sources
 - `MechaCar_mpg.csv`
@@ -20,4 +20,5 @@ Management at AutoRUs wants a technical report to justify their design choices o
 
 ## Challenge Summary
 Using the first dataset, it was shown that ground clearance is most likely to contribute to overall mpg efficiency. Given the data in the second dataset, initial analysis revealed that production of the coils is within the tolerance. However, analysis also showed that there is a statistical difference between the sample mean and larger population mean and it is recommended to retest with new data.
-Refere to `MechaCarWriteUp.txt` for more analysis.
+
+Refer to `MechaCarWriteUp.txt` for more analysis.
