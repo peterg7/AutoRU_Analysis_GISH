@@ -1,28 +1,28 @@
 
 # Multiple Linear Regression of MechaCar MPG
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+The results of the multiple linear regression model on the dataset show that only one variable contributed a non-random amount of variance to the overall mpg values in the dataset. There were three independent variables tested for in this analysis; vehicle weight, spoiler angle, and ground clearance. Of the three, ground clearance was shown to have a stastically unlikely chance of contributing random amounts of variance to the model. 
 
+Based on this data, there is insufficient evidence to reject the slope of the model as being zero. This comes from the fact that the p-value of the regression analysis was larger than the assumed significance level. This conclusion is also supported by the r-squared value of the model which shows a loose relationship between all the variables. 
 
-- Is the slope of the linear model considered to be zero? Why or why not?
-
-
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The model is not very accurate at predicting mpg of prototypes based on the selected independent variables. This is shown in the analysis by the low r-squared value which corresponds to weak correlation between the independent and dependent variables.
 
 
 # Statistical Summary of Suspension Coils
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
-
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. By calculating the sample population variance, it was shown that current production has a variance of 62.29 PSI. Therefore, given this sample dataset, the suspension coil production is producing within its tolerance.
 
 # One-Sample T-Test for Suspension Coils
-- Explain findings and interpretation.
+
+Comparing the sample mean to the population mean of the suspension coils' PSI rating using a one-sample t-test shows that the two means are significantly similar. However, the resulting p-value was 0.06 which is very close to the significance threshold of 0.05. Given these results it would be worthwhile to generate a new sample of coils to perform analysis on. 
 
 
 # Further Exploration
 
-- Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.).
+I believe that cost is one the most important factors for consumers when considering what car to purchase. As a subfield of cost, as a consumer, it's important to know how fuel efficient the car is to determine one aspect of how expensive the car will be to own. Another operating cost of the vehicle is changing the oil which will cost more with a larger engine. I think it all comes down to fitting the budget of the consumer.
 
-- Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
+To conduct this study, the question to ask is how does the MechaCar value against its competition in terms of fixed and variable costs? The null hypothesis is that the MechaCar does not differ in value from its competition. The variable hypothesis is that the MechaCar does differ in value from its competition. A two-way ANOVA test would be used to test the null hypothesis.. The test would compare the means of the cost of each car based on its fuel efficiency and engine size. The initial results would determine if there is any car that differs significantly from the others. The results would then be graphed with the mean score being a function of cost to visualize and conclude if the MechaCar outperforms its competition. 
 
-- Knowing what test should be used, what data should be collected?
+In order to perform this test, data must be collected from the MechaCar and aquired for its competition. The ANOVA test requires a categorical data type as the independent variable which will be the individual cars being tested. The two dependent variables are fuel efficiency and engine size which are both continous data types. Knowing this information, a two-way ANOVA test may be applied to determine how the MechaCar values against its competition in terms of fixed and operating costs. 
+
+
