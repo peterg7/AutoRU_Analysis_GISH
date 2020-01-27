@@ -6,6 +6,7 @@ An automanufacturing company, AutoRUs, want to encorporate aspects of data analy
 ## Resources
 Software:
 - R 1.2.5
+
 Data Sources
 - `MechaCar_mpg.csv`
 - `Suspension_Coil.csv`
